@@ -1,7 +1,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-07-18 10:14:40
- * @LastEditTime: 2022-07-18 21:28:17
+ * @LastEditTime: 2022-07-18 21:50:36
  * @LastEditors: Giaruei
  * @Description:
  * @FilePath: \less-music-dev\src\pages\Home\index.tsx
@@ -33,7 +33,7 @@ const Home: FC = () => {
 
         <Box fontSize="xl" textAlign="center">
             <Box m={2}>Tomato FUCK YOU</Box>
-
+            <h2>111</h2>
             <Tabs>
                 <TabList>
                     <Tab>aaa</Tab>
