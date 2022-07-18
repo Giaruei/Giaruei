@@ -1,0 +1,88 @@
+{
+    "name": "less-music",
+    "version": "0.1.0",
+    "private": true,
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PacificD/less-music"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "^1.8.7",
+        "@emotion/react": "^11.8.2",
+        "@emotion/styled": "^11.8.1",
+        "@testing-library/jest-dom": "^5.16.3",
+        "@testing-library/react": "^10.4.9",
+        "@testing-library/user-event": "^12.8.3",
+        "ahooks": "^3.5.2",
+        "axios": "^0.26.1",
+        "crypto-js": "^4.1.1",
+        "embla-carousel-react": "^7.0.0-rc05",
+        "framer-motion": "^4.1.17",
+        "lottie-react": "^2.3.1",
+        "qs": "^6.10.3",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-icons": "^3.11.0",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.0",
+        "typescript": "^4.6.3",
+        "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test",
+        "eject": "react-app-rewired eject",
+        "lint": "lint-staged"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@commitlint/config-conventional": "^17.0.3",
+        "@types/crypto-js": "^4.1.1",
+        "@types/jest": "^25.2.3",
+        "@types/node": "^12.20.47",
+        "@types/react": "^16.14.24",
+        "@types/react-dom": "^16.9.14",
+        "@types/react-router-dom": "^5.3.3",
+        "@typescript-eslint/eslint-plugin": "^5.30.6",
+        "@typescript-eslint/parser": "^5.30.6",
+        "commitlint": "^17.0.3",
+        "customize-cra": "^1.0.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "cz-customizable": "^6.9.1",
+        "eslint": "^8.20.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.6.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.30.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "husky": "^8.0.1",
+        "lint-staged": "^13.0.3",
+        "prettier": "^2.7.1",
+        "react-app-rewired": "^2.2.1"
+    },
+    "lint-staged": {
+        "src/**/*.{js,jsx,ts,tsx}": [
+            "prettier --write",
+            "eslint --fix"
+        ]
+    },
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-customizable"
+        }
+    }
+}
